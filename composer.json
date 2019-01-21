@@ -1,0 +1,20 @@
+{
+    "name": "rodrigobuzatto/linio",
+    "description": "Challenge",
+    "authors": [
+        {
+            "name": "Rodrigo Luiz Buzatto",
+            "email": "rodrigo.lz.bzt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Linio\\": "src/",
+            "Linio\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "^6.0"
+    }
+}
